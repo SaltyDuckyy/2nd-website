@@ -53,17 +53,18 @@ body {
     min-height: 100vh;
     text-transform: uppercase;
 }
+
 .pricing-table{
     background-color: #ffffff;
     display: flex;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 1rem 0;
     flex-direction: column;
     text-align: center;
 }
 .pricing-plan{
     border-bottom: 1px solid #e5e5e5;
-    margin: 1rem;
+    padding: 1rem;
 }
 .pricing-plan:nth-of-type(3){
     border-bottom: none;
@@ -115,7 +116,7 @@ img{
     background-color: #fca311;
 }
 
-@media(min-width: 769px){
+@media(min-width: 1025px){
     .pricing-table{
         flex-direction: row;
     }
